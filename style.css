@@ -1,9 +1,19 @@
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Roboto', sans-serif;*/
 body {
     height: 100vh;
     width: 100vw;
-    background: #FFFFD8;
-    font-family: monospace;
+    background: #FFF;
+    font-family: 'Lato', sans-serif;
     margin: 0;
+}
+
+@media (max-width: 767px) {
+    body {
+        height: 100%;
+        min-height: 100vh;
+    }
 }
 
 .wrapper {
@@ -11,8 +21,32 @@ body {
     position: relative;
     padding: 0 10em;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+}
+
+.wrapper .top {
+    z-index: 1;
+    margin-top: 10em;
+}
+
+.wrapper .bottom {
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .wrapper .bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .gopher {
@@ -22,9 +56,36 @@ body {
     bottom: 0;
     height: 15em;
     width: auto;
+    z-index: 0;
 }
 
-.wrapper::after {
-    content: '';
-    background-image: url("gopher.png");
+
+/*
+    Typography
+*/
+.heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 5px 5px 0;
+}
+
+.subheading {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.description {
+    font-size: 16px;
+}
+
+/*
+    Utility
+*/
+.inline {
+    display: flex;
+}
+
+.fab {
+    margin-right: 5px;
 }

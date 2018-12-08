@@ -1,0 +1,153 @@
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+body {
+    height: 100vh;
+    width: 100vw;
+    background: #f3fefe;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    body {
+        height: 100%;
+        min-height: 100vh;
+    }
+}
+
+.wrapper {
+    height: 100%;
+    position: relative;
+    padding: 0 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .wrapper {
+        padding: 0 2em;
+    }
+}
+
+.wrapper .top {
+    z-index: 1;
+    margin-top: 10vh;
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 767px) {
+    .wrapper .top {
+        margin-bottom: 5vh;
+    }
+}
+
+.wrapper .top .register-button {
+    margin-top: 2em;
+    padding: 0.5em 2em;
+    color: #FFF;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    white-space: normal;
+    background-image: linear-gradient(#8FE3E5, #00838F);
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: 0px 15px 12px 0px #cccccc;
+}
+
+.wrapper .bottom {
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .wrapper .bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .wrapper .bottom .detail-list {
+        margin-bottom: 3em;
+        text-align: center;
+    }
+}
+
+.wrapper .gopher {
+    position: absolute;
+    transform: translate3d(-50%, 0, 0);
+    left: 50%;
+    bottom: 0;
+    height: 18vh;
+    width: auto;
+    z-index: 0;
+}
+
+
+@media (max-width: 767px) {
+    .wrapper .gopher {
+        display: none;
+    }
+}
+
+/*
+    Typography
+*/
+.heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 5px 5px 0;
+    color: #00838F;
+}
+
+.subheading {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.description {
+    font-size: 16px;
+}
+
+/*
+    Utility
+*/
+.inline {
+    display: inline-flex;
+}
+
+.fab {
+    margin-right: 5px;
+    color: #00838F;
+}
+
+a {
+    color: #8FE3E5;
+}
+
+code {
+    background: #fbfbfb;
+    color: #f94949;
+    padding: 0 5px;
+    border: 1px solid #e8e8e8;
+    border-radius: 2px;
+}

@@ -51,7 +51,7 @@ body {
 
 .wrapper .top .register-button {
     margin-top: 2em;
-    padding: 0.5em 2em;
+    padding: 1em 3em;
     color: #FFF;
     text-align: center;
     font-size: 19px;
@@ -141,7 +141,7 @@ body {
 }
 
 a {
-    color: #8FE3E5;
+    color: #375EAB;
 }
 
 code {

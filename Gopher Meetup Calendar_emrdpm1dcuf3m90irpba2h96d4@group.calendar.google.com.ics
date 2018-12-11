@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Gopher Meetup Calendar
+X-WR-TIMEZONE:Asia/Kathmandu
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190105
+DTEND;VALUE=DATE:20190106
+DTSTAMP:20181211T084918Z
+UID:4689apujrblpgh1mp337nbh4c7@google.com
+CREATED:20181211T084854Z
+DESCRIPTION:Greetings all :)\n\nWe want to init Go community in Nepal start
+ ing with meetups. The first event will be Gophers Nepal Meetup 101\, where 
+ we meet face-to-face in Nepal(Kathmandu). We can chit-chat about Golang\, s
+ hare our experiments/challenges while using go or swag experiences we have 
+ built around it.\n\nGophers let's huddle up and dig some holes together \;)
+ \nP.S: Also\, If you are interested to share your experiences\, please send
+  us a message.\n\n\n\nContacts\n https://t.me/golang_devs_nepal\n golang-de
+ vs-nepal@googlegroups.com\n #nepal channel on gopher slack\n\nEvent Details
+ \nDate : Jan 05\, 2019\nLocation :  Enliv Information Technologies\n\nWebsi
+ te: http://enlivit.com/gopher-devs-nepal/
+LAST-MODIFIED:20181211T084854Z
+LOCATION:Enliv Information Technologies\, Chakupat Rd\, पाटन 44600\, Nepal
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Gopher Meetup Nepal 2019
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

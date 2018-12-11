@@ -92,6 +92,11 @@ body {
     align-items: center;
 }
 
+.wrapper .bottom .calender {
+    margin-left: 5px;
+    color: #00838F;
+}
+
 @media all and (max-device-width: 767px), all and (max-width: 767px) {
     .wrapper .bottom {
         display: flex;
@@ -170,6 +175,7 @@ body {
         font-size: 1.5rem;
     }
 }
+
 /*
     Utility
 */

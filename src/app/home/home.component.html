@@ -1,7 +1,7 @@
-<app-grid class="container">
+<app-grid class="page-container">
   <app-grid direction="column" align="flex-start" class="left">
     <img src="assets/images/golang.svg" alt="golang-logo" class="golang-logo">
-    <div class="title purple">
+    <div class="title purple bold">
       Community
     </div>
     <div class="large-desc grey">
@@ -11,16 +11,28 @@
       <app-button [round]="true" [color]="'purple'">See Events</app-button>
     </div>
   </app-grid>
-  <app-grid class="right">
-    <div>
-      Picture
-    </div>
-    <app-grid>
-      <div>
+  <app-grid direction="column" align="center" justify="space-between" class="right">
+    <img src="assets/images/gopher-share.svg" alt="gopher share" class="gopher-share">
+    <app-grid align="center">
+      <div class="text bold join-us">
         Join Us
       </div>
       <div>
-        Icons
+        <a href="#">
+          <img src="assets/images/telegram-logo.svg" alt="telegram logo">
+        </a>
+        <a href="#">
+          <img src="assets/images/slack-logo.svg" alt="telegram logo">
+        </a>
+        <a href="#">
+          <img src="assets/images/google-groups-logo.svg" alt="telegram logo">
+        </a>
+        <a href="#">
+          <img src="assets/images/twitter-logo.svg" alt="telegram logo">
+        </a>
+        <a href="#">
+          <img src="assets/images/github-logo.svg" alt="telegram logo">
+        </a>
       </div>
     </app-grid>
   </app-grid>

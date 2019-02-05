@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Slack_RGB" data-name="Slack RGB" transform="translate(-62.7 -62.6)">
+    <g id="Group_374" data-name="Group 374" transform="translate(62.7 62.6)">
+      <g id="Group_370" data-name="Group 370" transform="translate(0.038 25.299)">
+        <path id="Path_308" data-name="Path 308" d="M72.881,133.845a5.041,5.041,0,1,1-5.041-5.045h5.041Z" transform="translate(-62.8 -128.8)" fill="#e01e5a"/>
+        <path id="Path_309" data-name="Path 309" d="M95.8,133.845a5.041,5.041,0,1,1,10.081,0v12.611a5.041,5.041,0,1,1-10.081,0Z" transform="translate(-83.199 -128.8)" fill="#e01e5a"/>
+      </g>
+      <g id="Group_371" data-name="Group 371" transform="translate(0 0)">
+        <path id="Path_310" data-name="Path 310" d="M100.841,72.689a5.045,5.045,0,1,1,5.04-5.045v5.045Z" transform="translate(-83.16 -62.6)" fill="#36c5f0"/>
+        <path id="Path_311" data-name="Path 311" d="M80.38,95.7a5.045,5.045,0,0,1,0,10.089H67.741a5.045,5.045,0,0,1,0-10.089Z" transform="translate(-62.7 -83.05)" fill="#36c5f0"/>
+      </g>
+      <g id="Group_372" data-name="Group 372" transform="translate(25.279 0)">
+        <path id="Path_312" data-name="Path 312" d="M161.9,100.745a5.04,5.04,0,1,1,5.041,5.045H161.9Z" transform="translate(-149.299 -83.05)" fill="#2eb67d"/>
+        <path id="Path_313" data-name="Path 313" d="M138.981,80.294a5.041,5.041,0,1,1-10.081,0V67.645a5.041,5.041,0,1,1,10.081,0Z" transform="translate(-128.9 -62.6)" fill="#2eb67d"/>
+      </g>
+      <g id="Group_373" data-name="Group 373" transform="translate(25.279 25.299)">
+        <path id="Path_314" data-name="Path 314" d="M133.941,161.8a5.045,5.045,0,1,1-5.041,5.045V161.8Z" transform="translate(-128.9 -149.189)" fill="#ecb22e"/>
+        <path id="Path_315" data-name="Path 315" d="M133.941,138.889a5.045,5.045,0,0,1,0-10.089h12.64a5.045,5.045,0,0,1,0,10.089Z" transform="translate(-128.9 -128.8)" fill="#ecb22e"/>
+      </g>
+    </g>
+  </g>
+</svg>

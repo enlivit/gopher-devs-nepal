@@ -1,0 +1,16 @@
+<svg id="Telegram_logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.667" y1="0.167" x2="0.417" y2="0.75" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#37aee2"/>
+      <stop offset="1" stop-color="#1e96c8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.66" y1="0.437" x2="0.851" y2="0.802" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eff7fc"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <circle id="Ellipse_1" data-name="Ellipse 1" cx="24" cy="24" r="24" fill="url(#linear-gradient)"/>
+  <path id="Path_316" data-name="Path 316" d="M85.2,99c-.778,0-.645-.294-.914-1.034L82,90.441,99.6,80" transform="translate(-65.6 -64)" fill="#c8daea"/>
+  <path id="Path_317" data-name="Path 317" d="M98,150.526a1.538,1.538,0,0,0,1.2-.6l3.2-3.112-3.992-2.407" transform="translate(-78.4 -115.526)" fill="#a9c9dd"/>
+  <path id="Path_318" data-name="Path 318" d="M59.143,86.626l9.672,7.146c1.1.609,1.9.294,2.175-1.025l3.937-18.553c.4-1.616-.616-2.349-1.672-1.87L50.137,81.239c-1.578.633-1.569,1.513-.288,1.906L55.782,85l13.735-8.665c.648-.393,1.243-.182.755.252" transform="translate(-39.135 -57.744)" fill="url(#linear-gradient-2)"/>
+</svg>

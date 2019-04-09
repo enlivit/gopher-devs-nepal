@@ -10,13 +10,42 @@ header
   box-sizing: border-box
   min-height: 64px
   background-color: white
+  z-index: 999
+  box-shadow: 0 1px 0 rgba(12,13,14,0.1)
   .nav
     display: flex
     justify-content: flex-end
-    a
-      padding: 0 8px
-      text-decoration: none
-      color: black
+    button
+      position: relative
+      &:after
+        content: ""
+        position: absolute
+        bottom: -10px
+        width: 0px
+        height: 5px
+        margin: 5px 0 0
+        transition: all 0.2s ease-in-out
+        transition-duration: 0.75s
+        opacity: 0
+        left: 0
+      &.active
+        &:after
+          width: 100%
+          opacity: 1
+        &.aboutus
+          &:after
+            background-color: var(--bg-yellow)
+        &.meetup
+          &:after
+            background-color: var(--bg-blue)
+
+  button
+    padding: 0 8px
+    background: none
+    border: none
+    color: black
+    outline: none
+    cursor: pointer
 @media(max-width: 768px)
   header
     padding: 0 2vw

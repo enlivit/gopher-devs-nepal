@@ -1,11 +1,13 @@
 .about-us
   position: relative
   .left
-    width: 50%
-    &:after
-      bottom: 0
-      right: 0
-      z-index: 0
-      margin-right: -5vw
-      position: absolute
-      content: url(../../assets/images/footer.svg)
+    width: 60%
+    z-index: 1
+  &:after
+    bottom: 0
+    right: 0
+    z-index: 0
+    transform: translateX(5vw)
+    position: absolute
+    width: auto
+    content: url(../../assets/images/footer.svg)

@@ -1,9 +1,9 @@
 <header>
-  <div class="text">
+  <button class="text" (click)="scroll('home')">
     Gopher Devs Nepal
-  </div>
+  </button>
   <div class="nav">
-    <a href="#" class="text">Meetup</a>
-    <a href="#" class="text">About Us</a>
+    <button [ngClass]="{ text: true, 'meetup': true, active: active('meetup') }" (click)="scroll('meetup')">Meetup</button>
+    <button [ngClass]="{ text: true, 'aboutus': true, active: active('aboutus') }" (click)="scroll('aboutus')">About Us</button>
   </div>
 </header>

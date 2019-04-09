@@ -2,8 +2,14 @@
 <!--Layout should contain the header-->
 <!--Also manage the scroll effect and position of screen-->
 <div class="layout">
-  <app-header></app-header>
-  <div class="content">
-    <ng-content></ng-content>
+  <app-header id="header" [nav]="currentNav" (changeNav)="changeNav($event)"></app-header>
+  <div [@page] class="container" *ngIf="currentNav === 'home'">
+    <app-home id="home"></app-home>
+  </div>
+  <div [@page] class="container" *ngIf="currentNav==='meetup'">
+    <app-meetup  id="meetup"></app-meetup>
+  </div>
+  <div [@page] class="container" *ngIf="currentNav==='aboutus'">
+    <app-aboutus id="aboutus"></app-aboutus>
   </div>
 </div>

@@ -4,8 +4,13 @@
   width: 100vw
   padding: 0 5vw
   box-sizing: border-box
-  .content
-    margin-top: 64px
+  .container
+    &.ng-enter, &.ng-leave
+      transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s
+    &.ng-enter, .ng-leave.ng-leave-active
+      opacity: 0
+    &.ng-leave,&.ng-enter.ng-enter-active
+      opacity: 1
 
 @media(max-width: 768px)
   padding: 0 2vw

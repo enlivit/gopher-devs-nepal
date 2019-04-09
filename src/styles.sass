@@ -1,11 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 /* Typography */
+body
+  margin: 0
+  --bg-purple: #C3ADEB
+  --bg-blue: #85EBF9
+  --bg-yellow: #FFE77D
+  --bg-grey: #A5BBCE
+
 .title
-  font-size: 6rem
+  font-size: 5rem
 .large-desc
-  font-size: 3rem
+  font-size: 2.5rem
 .text
   font-size: 1rem
+@media(max-width: 768px)
+  .title
+    font-size: 3rem
+  .large-desc
+    font-size: 1.5rem
+  .text
+    font-size: 0.8rem
 
 .bold
   font-weight: bold
@@ -30,4 +44,6 @@
 
 .page-container
   width: 100%
-  padding: 3em 0
+  height: 100vh
+  box-sizing: border-box
+  padding: 100px 0 3em
